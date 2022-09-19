@@ -42,7 +42,7 @@ First, execute Model_Learning_NET_1.m (p1:1:50 and p2=1:4), then Fig_9a.m, Fig_9
 
 Fig9b:
 
-First, execute Model_Learning_NET_2.m (p1:1:500 and p2=5), then Fig_9b.m
+First, execute Model_Learning_NET_2.m (p1:1:500 and p2=4), then Fig_9b.m
 
 %%%%%%%%%%%%%%%%%%%%%
 
