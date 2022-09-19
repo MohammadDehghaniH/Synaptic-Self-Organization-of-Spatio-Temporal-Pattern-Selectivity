@@ -16,7 +16,7 @@ First, execute then Model_Learning.m for  p1=1:1:500, and p2=1:1:3. second execu
 Fig7:
 
 First: execute the Model_Learning_noise.m for  p1=1:1:500 and p2=1. 
-Second: execute Model_test_Noise.m for p1=1:1:500 and p2=1.
+Second: execute Model_test_Noise_2.m for p1=1:1:500 and p2=1.
 Third: execute  Fig_7a.m, Fig_7b.m, and Fig_7c.m
 
 %%%%%%%%%%%%%%%%%%%%%
