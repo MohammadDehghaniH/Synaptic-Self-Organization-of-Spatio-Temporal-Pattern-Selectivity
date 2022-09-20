@@ -3,7 +3,7 @@
 Fig1, Fig2, Fig3, Fig4, and Fig5:
 
 First execute Model_Learning.m for p1=1:1:500, and p2=1:1:3.
-Then plot them from programs with the same name. For example, to plot figure 1, execute  Fig1.m
+Then to plot figure 1, execute  Fig1.m, figure 2a: Fig_2a.m, and so on.
 
 %%%%%%%%%%%%%%%%%%%%%
 
