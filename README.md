@@ -34,15 +34,15 @@ Second execute Fig_8c.m
 
 %%%%%%%%%%%%%%%%%%%%%
 
-Fig9a, c:
+Fig9a:
 
-First, execute Model_Learning_NET_1.m (p1:1:50 and p2=1:4), then Fig_9a.m, Fig_9c.m 
+First, execute Model_Learning_NET_1.m (p1:1:50 and p2=1:4), then Fig_9a.m
 
 %%%%%%%%%%%%%%%%%%%%%
 
-Fig9b:
+Fig9b, c:
 
-First, execute Model_Learning_NET_2.m (p1:1:500 and p2=4), then Fig_9b.m
+First, execute Model_Learning_NET_2.m (p1:1:500 and p2=4), then Fig_9b.m, Fig_9c.m 
 
 %%%%%%%%%%%%%%%%%%%%%
 
