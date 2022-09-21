@@ -1,5 +1,8 @@
 # Synaptic-Self-Organization-of-Spatio-Temporal-Pattern-Selectivity
 
+Unzip the folder Folder.zip, and locate all the directories and programs in the same folder. 
+
+
 Fig1, Fig2, Fig3, Fig4, and Fig5:
 
 First execute Model_Learning.m for p1=1:1:500, and p2=1:1:3.
