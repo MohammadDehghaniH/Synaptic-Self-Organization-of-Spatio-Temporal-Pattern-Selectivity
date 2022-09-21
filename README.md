@@ -1,6 +1,6 @@
 # Synaptic-Self-Organization-of-Spatio-Temporal-Pattern-Selectivity
 
-Unzip the Folder.zip, and locate all the files in the same folder. 
+Extract the Folder.zip into the desired directory. You will see a folder called *Folders*. Then, locate all the MATLAB Files (.m files) into the *Folders*. 
 
 
 Fig1, Fig2, Fig3, Fig4, and Fig5:
