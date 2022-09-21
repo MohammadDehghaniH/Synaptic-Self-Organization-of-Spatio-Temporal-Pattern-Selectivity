@@ -2,6 +2,7 @@ function Model_Learning_NET_1(p1,p2)
 %p1: seed for random number and p1=1:1:\mu. There are \mu independent simulations
 %p2: N_psn: number of post-synaptic neurons. (p2=1: N_psn=4);(p2=1: N_psn=5)
 %(p2=1: N_psn=6);(p2=1: N_psn=7)
+%w =ab w: W_vec a: W_veca b: W_vecb
 
 SDF1=10+(p1-1)*1e6;
 rng(SDF1);
