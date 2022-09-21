@@ -2,6 +2,8 @@ clc; clear; close all
 
 Fig2b=figure();
 
+%spike-triggered average
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 yline(0,'-k','Linewidth',2)
 hold on
