@@ -1,7 +1,7 @@
 # Synaptic-Self-Organization-of-Spatio-Temporal-Pattern-Selectivity
 
 
-This repository contains the codes to implement the model described in the manuscript "# Synaptic Self-Organization of Spatio-Temporal Pattern Selectivity#".
+This repository contains the codes to implement the model described in the manuscript "#Synaptic Self-Organization of Spatio-Temporal Pattern Selectivity#".
 
 
 Extract the Folder.zip into the desired directory. You will see a folder called *Folders*. Then, locate all the MATLAB Files (.m files) into the *Folders*. 
