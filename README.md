@@ -8,7 +8,7 @@ Extract the Folder.zip into the desired directory. You will see a folder called 
 
 
 
-**Fig1, Fig2, Fig3, Fig4, and Fig5:
+**Fig1, Fig2, Fig3, Fig4, and Fig5:**
 
 First execute Model_Learning.m for p1=1:1:500, and p2=1:1:3.
 Then to plot figure 1, execute  Fig1.m, figure 2a: Fig_2a.m, and so on.
@@ -56,8 +56,7 @@ First, execute Model_Learning_NET_2.m (p1:1:500 and p2=4), then Fig_9b.m, Fig_9c
 **Fig9d:**
 
 This figure was obtained from an extensive simulation. For every number of embedded patterns, we considered post-synaptic neurons from 2:2:30. Each point is from an average of 50 simulations.
-Model_Learning_NET_1.m is the primary program to plot Fig 9d. However, the position of the embedded pattern should be defined as a fixed position. (it is independent of the pattern position.)
-
+Model_Learning_NET_1.m is the primary program to plot Fig 9d. The positions of the embedded patterns are fixed; however, results are independent of the pattern position.
 
 
 **Fig10:**
