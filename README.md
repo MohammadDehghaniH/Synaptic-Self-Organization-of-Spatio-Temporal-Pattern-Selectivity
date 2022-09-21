@@ -1,22 +1,21 @@
 # Synaptic-Self-Organization-of-Spatio-Temporal-Pattern-Selectivity
 
 
-## This repository contains the codes to implement the model described in the manuscript "**Synaptic Self-Organization of Spatio-Temporal Pattern Selectivity**".
+ This repository contains the codes to implement the model described in the manuscript "**Synaptic Self-Organization of Spatio-Temporal Pattern Selectivity**".
 
 
 Extract the Folder.zip into the desired directory. You will see a folder called *Folders*. Then, locate all the MATLAB Files (.m files) into the *Folders*. 
 
 
-%%%%%%%%%%%%%%%%%%%%%
 
-**Fig1, Fig2, Fig3, Fig4, and Fig5:**
+-**Fig1, Fig2, Fig3, Fig4, and Fig5:**
 
 First execute Model_Learning.m for p1=1:1:500, and p2=1:1:3.
 Then to plot figure 1, execute  Fig1.m, figure 2a: Fig_2a.m, and so on.
 
-%%%%%%%%%%%%%%%%%%%%%
 
-**Fig6:**
+
+-**Fig6:**
 
 First, execute then Model_Learning.m for  p1=1:1:500, and p2=1:1:3. second execute Model_test_Noise.m for  p1=1:1:500, and p2=1:1:3. Then execute Fig_6a.m, Fig_6b.m, and Fig_6c.m
 
