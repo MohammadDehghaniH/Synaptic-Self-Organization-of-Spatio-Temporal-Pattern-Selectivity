@@ -3,6 +3,8 @@
 Extract the Folder.zip into the desired directory. You will see a folder called *Folders*. Then, locate all the MATLAB Files (.m files) into the *Folders*. 
 
 
+%%%%%%%%%%%%%%%%%%%%%
+
 Fig1, Fig2, Fig3, Fig4, and Fig5:
 
 First execute Model_Learning.m for p1=1:1:500, and p2=1:1:3.
