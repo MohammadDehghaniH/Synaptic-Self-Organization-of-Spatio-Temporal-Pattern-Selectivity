@@ -45,11 +45,12 @@ h.LineWidth=2;
 hLg.LineWidth=1;            
 ylabel(["number of simulations", "learns n patterns"],'FontSize',14)
 xlabel('r_{0}','FontSize',14)
-legend([I1 I2 I3 I4  ],'Location','southeast','color','none' )
+legend([I1 I2 I3 I4  ],'Location','northeast','color','none' )
 title('(c)')
+ylim([0 100])
 set(gca,'FontSize',14,'color','none')
 
-print('Fig9c','-dpng','-r300')
+print('Fig8c','-dpng','-r300')
 
     
 
