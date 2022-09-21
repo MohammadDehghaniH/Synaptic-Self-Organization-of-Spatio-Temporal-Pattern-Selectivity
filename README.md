@@ -1,6 +1,6 @@
 # Synaptic-Self-Organization-of-Spatio-Temporal-Pattern-Selectivity
 
-Unzip the folder Folder.zip, and locate all the directories and programs in the same folder. 
+Unzip the Folder.zip, and locate all the files in the same folder. 
 
 
 Fig1, Fig2, Fig3, Fig4, and Fig5:
