@@ -1,6 +1,6 @@
 function Model_Learning_NET_3(p1)
 %p1: seed for random number and p1=1:1:\mu. There are \mu independent simulations.
-%w =ab w: W_vec a: W_veca b: W_vecb
+%w =ab, w: W_vec, a: W_veca, b: W_vecb
 SDF1=10+(p1-1)*1e6;
 rng(SDF1);
 
