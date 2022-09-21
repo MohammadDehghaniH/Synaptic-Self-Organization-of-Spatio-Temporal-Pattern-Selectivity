@@ -50,7 +50,7 @@ Ntrials_5=10000;
 %Norm_W: the norm of weight vector in each learning cycle
 %Cos_W: cosine between weight vector in each learning cycle with initial weight vector
 %em:  em=0: there is no embedded pattern in afferents. em=1: there is an embedded pattern in afferents.
-
+%w =ab, w: W_vec, a=1, b: W_vecb, W_vec=W_vecb
 
 
 alpha_1=1e-2; %scaling factor 
