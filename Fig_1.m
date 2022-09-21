@@ -24,11 +24,11 @@ times = 1:TT; % discretization
 times = times*delt;
 
 % Generating kernels for excitatory and inhibitory inputs
-taumem = 15; %membrane time constant
-tautraceE =3;%Rise time of exctatoy currents
+taumem = 15;  %membrane time constant
+tautraceE =3; %Rise time of excitatoy currents
 tautraceI = 5;%Decay time of inhibitory currents
 tauriseE =0.5;%Decay time of excitatoy currents
-tauriseI = 1;%Rise time of inhibitory currents
+tauriseI = 1; %Rise time of inhibitory currents
 traceE = exp(-times/tautraceE) - exp(-times/tauriseE);
 ettaE=tautraceE/tauriseE;
 VnormE = (ettaE.^(ettaE/(ettaE - 1)))/(ettaE-1);
