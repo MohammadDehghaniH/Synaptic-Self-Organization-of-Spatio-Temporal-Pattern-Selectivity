@@ -5,7 +5,7 @@
 
 
 
-##To reproduce the results, follow the steps below:##
+**To reproduce the results, follow the steps below:**
 
 Extract the Folder.zip into the desired directory. You will see a folder called *Folders*. Then, locate all the MATLAB Files (.m files) into the *Folders*. 
 
