@@ -47,14 +47,14 @@ xax = 1:1:Ntrials_5;
 
 
 R=mean(Results1);
-I50=plot(xax,R,'color',[0.5 0 0],'DisplayName','Second Pattern','Linewidth',2.5);
+I50=plot(xax,R,'color',[0.5 0 0],'DisplayName','First Pattern','Linewidth',2.5);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 R=mean(Results2);
-I300=plot(xax,R,'color',[0 0 0.5],'DisplayName','First Pattern','Linewidth',2.5);
+I300=plot(xax,R,'color',[0 0 0.5],'DisplayName','Second Pattern','Linewidth',2.5);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
