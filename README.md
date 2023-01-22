@@ -64,7 +64,7 @@ Model_Learning_NET_1.m is the primary program to plot Fig 9d. The positions of t
 
 **Fig10:**
 
-First: Execute Model_Learning_NET_3.m (p1:1:50 and p2=6)
+First: Execute Model_Learning_NET_3.m (p1:1:50)
 Second: execute Fig_10.m
 
 
