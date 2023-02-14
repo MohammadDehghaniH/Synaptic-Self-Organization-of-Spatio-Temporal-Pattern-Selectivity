@@ -163,6 +163,7 @@ ns_15_1=zeros(Ntrials_2,N_psn);
 Spikess_1=zeros(Ntrials_2,N_psn);
 
 em=1;
+fb=200;
 for itrial=1:Ntrials_2
     
     %%%%original pattern
@@ -236,8 +237,8 @@ for itrial=1:Ntrials_2
     num_spikes1=sum(num_spikes_vec(:,tr:TT),2);
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    ns_0_1(itrial,:) = sum(num_spikes_vec(:,intimeP_vec(1,1)+1: intimeP_vec(1,1) + TP),2);
-    ns_15_1(itrial,:) = sum(num_spikes_vec(:,intimeP_vec(1,1)+1:intimeP_vec(1,1) + TP+150),2);
+    ns_0_1(itrial,:) = sum(num_spikes_vec(:,intimeP_vec(1,1)+1-fb: intimeP_vec(1,1) + TP+fb),2);
+    ns_15_1(itrial,:) = sum(num_spikes_vec(:,intimeP_vec(1,1)+1-fb:intimeP_vec(1,1) + TP+150+fb),2);
     Spikess_1(itrial,:)=num_spikes1;
 
     
@@ -363,8 +364,8 @@ for itrial=1:Ntrials_2
     num_spikes1=sum(num_spikes_vec(:,tr:TT),2);
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    ns_0_1(itrial,:) = sum(num_spikes_vec(:,intimeP_vec(1,1)+1: intimeP_vec(1,1) + TP),2);
-    ns_15_1(itrial,:) = sum(num_spikes_vec(:,intimeP_vec(1,1)+1:intimeP_vec(1,1) + TP+150),2);
+    ns_0_1(itrial,:) = sum(num_spikes_vec(:,intimeP_vec(1,1)+1-fb: intimeP_vec(1,1) + TP+fb),2);
+    ns_15_1(itrial,:) = sum(num_spikes_vec(:,intimeP_vec(1,1)+1-fb:intimeP_vec(1,1) + TP+150+fb),2);
     Spikess_1(itrial,:)=num_spikes1;
     
     eligibility_vec_I=INP(:,tr:TT)*(V_vec(tr:TT,:)-V0I);
