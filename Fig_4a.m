@@ -2,7 +2,7 @@ clc; clear; close all
 
 Fig4a=figure();
 
-Ntrials_3=20000;
+Ntrials_3=60000;
 %Ntrials_3: number of learning cycles to learn the background. 
 %There is no embedded pattern in afferents.
 %(Note initial conditions in this step are from step 2.)
@@ -36,7 +36,7 @@ xlabel('Learning cycle','FontSize',14)
 box off
 title('(a)')
 set(gca,'FontSize',14,'color','none')
-xlim([0 10000])
+xlim([0 60000])
 ylim([0. 1.05])
 
 
