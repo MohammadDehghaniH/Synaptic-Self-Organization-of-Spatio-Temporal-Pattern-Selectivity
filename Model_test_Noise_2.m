@@ -191,8 +191,8 @@ for j=1:1:numel(sigha)
     num_spikes=sum(num_spikes_vec(:,tr:TT),2);
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    NoiseGaus(1,j) = sum(num_spikes_vec(:,intimeP_vec(1,1)+1: intimeP_vec(1,1) + TP),2);
-    NoiseGaus(2,j) = sum(num_spikes_vec(:,intimeP_vec(1,1)+1:intimeP_vec(1,1) + TP+150),2);
+    NoiseGaus(1,j) = sum(num_spikes_vec(:,intimeP_vec(1,1)+1-fb*10: intimeP_vec(1,1) + TP+fb*10),2);
+    NoiseGaus(2,j) = sum(num_spikes_vec(:,intimeP_vec(1,1)+1-fb*10:intimeP_vec(1,1) + TP+150+fb*10),2);
     NoiseGaus(3,j)=num_spikes;    
 end
 
