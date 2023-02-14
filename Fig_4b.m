@@ -2,7 +2,7 @@ clc; clear; close all
 
 Fig4b=figure();
 
-Ntrials_3=20000;
+Ntrials_3=60000;
 %Ntrials_3: number of learning cycles to learn the background. 
 %There is no embedded pattern in afferents.
 %(Note initial conditions in this step are from step 2)
@@ -48,6 +48,6 @@ box off
 title('(b)')
 set(gca,'FontSize',14,'color','none')
 ylim([0 20])
-xlim([1 10000])
+xlim([1 60000])
 
 print('Fig4b','-dpng','-r300')
