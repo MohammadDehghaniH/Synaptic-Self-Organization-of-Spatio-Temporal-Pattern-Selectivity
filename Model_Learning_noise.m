@@ -189,7 +189,7 @@ for itrial=1:Ntrials_2
     ts=3000;
     [y,x]=find(PATP(:,ts+1:end-ts)==1);
     
-    nb=round(0+250*randn(1,numel(x)));
+    nb=round(0+200*randn(1,numel(x)));
     for i=1:numel(x)
         PATP(y(i),ts+x(i))=0;
         PATP(y(i),ts+x(i)+nb(i))=1;
@@ -287,7 +287,7 @@ Spikess_1=zeros(Ntrials_2,N_psn);
 
 em=1;
 
-sigha=25; %standard deviation
+sigha=20; %standard deviation
 traceG=normpdf(times-500,0,sigha); %Gaussian kernel
 inall0=zeros(NN,TT);
 
